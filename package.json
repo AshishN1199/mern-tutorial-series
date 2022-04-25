@@ -1,0 +1,19 @@
+{
+  "name": "codevs",
+  "version": "1.0.0",
+  "main": "srever.js",
+  "scripts": {
+    "start": "nodemon backend/server.js"
+  },
+  "author": "Ashish Nalawade",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  },
+  "description": "",
+  "devDependencies": {
+    "husky": "^4.3.8"
+  }
+}
