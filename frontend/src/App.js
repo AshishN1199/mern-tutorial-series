@@ -1,5 +1,11 @@
 import "./App.css";
+import Footer from "./components/footer/footer";
+import Header from "./components/header/header";
 
-const App = () => <h1 className="App">hello world</h1>;
-
+const App = () => (
+  <>
+    <Header />
+    <Footer />
+  </>
+);
 export default App;
